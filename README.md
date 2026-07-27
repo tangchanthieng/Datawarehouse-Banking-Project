@@ -2,15 +2,15 @@
 
 ---
 
-Project Name: Aurora Commercial Banking Customer Analytics Platform
-
 Owner: Chan Tang
 
-Role: Project Owner / Data Analyst / Data Engineer
+Role: Project Owner/Data Analyst/Data Engineer
 
 Version: 1.1
 
 Date: Feb 2026
+
+Contact: tangchanthieng@gmail.com
 
 ---
 
@@ -66,16 +66,18 @@ The primary objective of this project is to build a modern analytics platform ca
 
 `Component Technology`
 
-- Database: SQL Server 2022 Express
-- Database Management: SQL Server Management Studio (SSMS 22)
-- Programming Language: Python 3.14
-- IDE: Visual Studio Code
-- Data Processing: Pandas, NumPy
-- Database Connectivity: SQLAlchemy, pyodbc
-- Machine Learning: Scikit-learn
-- Visualization: Power BI Desktop
-- Version Control: Git
-- Repository Hosting: GitHub
+| Category               | Tool                                   |
+|----------------------- | -------------------------------------- |
+| Database               | SQL Server 2022 Express                |
+| Database Management    | SQL Server Management Studio (SSMS 22) |
+| Programming Language   | Python 3.14                            |
+| IDE                    | Visual Studio Code                     |
+| Data Processing        | Pandas, NumPy                          |
+| Database Connectivity  | SQLAlchemy, pyodbc                     |
+| Machine Learning       | Scikit-learn                           |
+| Visualization          | Power BI Desktop                       |
+| Version Control        | Git                                    |
+| Repository Hosting     | GitHub                                 |
 
 ---
 
@@ -115,5 +117,3 @@ python scripts/pipeline/create_views.py
 - Open the `docs/` directory to review complete project documentation and data dictionaries.
 - Launch `dashboards/aurora_analytics.pbix` in Power BI Desktop to explore the interactive visual analytics.
 - Open the `image/diagram/Findings_Recommendations.png` to review the summary of findings and recommendations.
-
----
