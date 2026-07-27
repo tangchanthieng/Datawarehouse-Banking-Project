@@ -17,7 +17,15 @@ Aurora Commercial Banking Customer Analytics Platform/
 │   │   └── mcc_codes.csv
 │   │
 │   ├── staging/ #intermediate outputs after extraction but before transformation
-│   ├── cleaned/ #holds cleaned and standardized datasets
+|   |   ├── stg_users_data.csv
+│   │   ├── stg_cards_data.csv
+│   │   ├── stg_transactions_data.csv
+│   │   └── stag_mcc_codes.csv
+│   └── cleaned/ #holds cleaned and standardized datasets
+|       ├── clean_users.csv
+│       ├── clean_cards.csv
+│       ├── clean_transaction.csv
+│       └── clean_mcc.csv
 │
 ├── sql/
 │   ├── 01_Create_Database.sql 
@@ -43,8 +51,8 @@ Aurora Commercial Banking Customer Analytics Platform/
 ├── notebook/
 │   └── raw_data_overview.ipynb
 │
-├── image/
-│   ├── client profiling/
-│   ├── diagram/
-│   ├── marketing/
-│   └── risk management/
+└── image/
+    ├── client profiling/
+    ├── diagram/
+    ├── marketing/
+    └── risk management/
